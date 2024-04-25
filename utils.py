@@ -10,7 +10,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.llms import OpenAI
 openai_api_key = "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"
-
+os.environ['OPENAI_API_KEY'] = openai_api_key
 embeddings=OpenAIEmbeddings(api_key=os.environ['OPENAI_API_KEY'])
 embeddings
 

@@ -10,3 +10,4 @@ python-dotenv
 streamlit
 streamlit_chat
 sentence_transformers
+langchain_pinecone

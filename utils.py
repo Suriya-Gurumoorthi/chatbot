@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Pinecone
 from langchain.llms import OpenAI
-openai.api_key = "sk-proj-Oz3PVzXD6MGVPDHdwPXqT3BlbkFJfMOMNGury1j0u3nAhjgh"
+openai.api_key = "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"
 embeddings=OpenAIEmbeddings(api_key=os.environ['OPENAI_API_KEY'])
 embeddings
 

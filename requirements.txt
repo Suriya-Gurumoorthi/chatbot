@@ -2,8 +2,8 @@ unstructured
 tiktoken
 pinecone-client
 pypdf
-openai
-langchain
+openai==0.28.1
+langchain==0.0.316
 pandas 
 numpy
 python-dotenv
